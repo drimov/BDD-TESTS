@@ -1,0 +1,21 @@
+{
+  "name": "bdd-tests",
+  "version": "1.0.0",
+  "description": "test foncionnel avec cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cucumber": "npx cucumber-js --require-module @babel/register",
+    "cucumber_fr": "npx cucumber-js --language fr --require-module @babel/register"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "@cucumber/cucumber": "^8.9.0"
+  }
+}
