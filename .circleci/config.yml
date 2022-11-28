@@ -12,3 +12,6 @@ workflows:
   node-tests:
     jobs:
       - node/test
+    steps:
+      -run:
+        command: npm run cucumber
